@@ -72,7 +72,8 @@ int yywrap() { return 0;
 }
 ```
 Var.c
-```#include<stdio.h> int main(){
+```
+#include<stdio.h> int main(){
 int a,b; return 0;
 }
 ```
