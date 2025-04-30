@@ -35,7 +35,7 @@
 
 # INPUT
 ```
-/* program name is ex.l */
+/* program name is ex2.l */
 %{
 /* program to recognize a C program */ int COMMENT = 0;
 %}
@@ -71,15 +71,15 @@ yylex(); printf("\n\n"); return 0;
 int yywrap() { return 0;
 }
 ```
-var.c
-
-```
-#include<stdio.h> int main(){
+Var.c
+```#include<stdio.h> int main(){
 int a,b; return 0;
 }
 ```
 # OUTPUT
-![image](https://github.com/user-attachments/assets/ccfee339-5608-4a1c-9728-f35454dc432a)
+
+![image](https://github.com/user-attachments/assets/7d62e138-8ecf-4afa-893a-0bfe84030e82)
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
