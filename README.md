@@ -71,7 +71,7 @@ yylex(); printf("\n\n"); return 0;
 int yywrap() { return 0;
 }
 ```
-Var.c
+var.c
 ```
 #include<stdio.h> int main(){
 int a,b; return 0;
